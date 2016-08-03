@@ -5,5 +5,6 @@
     "JS": "js",
     "HEAD": "html"
   },
-  "name": "Adventures-Of-Huckleberry-Finn"
+  "name": "Adventures-Of-Huckleberry-Finn",
+  "book_id": 333
 }
