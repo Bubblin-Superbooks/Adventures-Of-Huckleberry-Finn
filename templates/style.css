@@ -80,6 +80,9 @@ a:active {
 
 p {
     margin: 3vw 0;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;    
 }
 
 p.chapter-begin:first-letter {
