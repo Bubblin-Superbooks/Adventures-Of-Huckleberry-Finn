@@ -1,188 +1,184 @@
 html,
 body {
-  font-family: 'Amatic SC', cursive;
-  text-rendering: optimizeLegibility;
-  background: #222;
-  color: #eee;
-  height: 100vh;
-  width: 100vw;
+    font-family: 'Amatic SC', cursive;
+    text-rendering: optimizeLegibility;
+    background: #222;
+    color: #eee;
+    height: 100vh;
+    width: 100vw;
 }
 
 .container {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  margin: 0 auto;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
 }
 
-.upper, .lower{
-  height: 50vh;
+.upper,
+.lower {
+    height: 50vh;
 }
-
 
 h1 {
-  margin: 0;
+    margin: 0;
 }
 
 .adventures-container {
-  width: 100%;
-  position: absolute;
-  top: 5vh;
+    width: 100%;
+    position: absolute;
+    top: 5vh;
 }
 
 .adventures {
-  letter-spacing: 0.01vw;
-  text-align: center;
+    letter-spacing: 0.01vw;
+    text-align: center;
 }
-
 
 .adventures .char2,
 .adventures .char9 {
-  font-size: 30vw;
-  line-height: 0.85;
-  bottom: 0;
-  display: inline-block;
-  vertical-align: top;
+    font-size: 30vw;
+    line-height: 0.85;
+    bottom: 0;
+    display: inline-block;
+    vertical-align: top;
 }
 
-.adventures .char3
-.adventures .char8 {
-  font-size: 26vw;
-  line-height: 0.7;
-  margin: 0;
-  display: inline-block;
-  vertical-align: top;
+.adventures .char3 .adventures .char8 {
+    font-size: 26vw;
+    line-height: 0.7;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .adventures .char4,
 .adventures .char5,
 .adventures .char6,
 .adventures .char7 {
-
-  font-size: 23vw;
-  line-height: 0.8;
-  display: inline-block;
-  vertical-align: top;
+    font-size: 23vw;
+    line-height: 0.8;
+    display: inline-block;
+    vertical-align: top;
 }
 
-.adventures .char1, 
+.adventures .char1,
 .adventures .char10 {
-  line-height: 0.65;
-  font-size: 32vw;
-  line-height: 0.85;
-  bottom: 0;
-  display: inline-block;
-  vertical-align: top;
-
+    line-height: 0.65;
+    font-size: 32vw;
+    line-height: 0.85;
+    bottom: 0;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .huckleberry-container {
-  width: 100%;
-  position: absolute;
-  top: 15vh;  
+    width: 100%;
+    position: absolute;
+    top: 15vh;
 }
 
 .of-container {
-  width: 100%;
-  position: absolute;
-  top: 16vh;
+    width: 100%;
+    position: absolute;
+    top: 16vh;
 }
 
 .of {
-  color: white;
-  font-size: 10vw;
+    color: white;
+    font-size: 10vw;
 }
 
 .huckleberry {
-  letter-spacing: -0.01vw;
-  text-align: center;
-  line-height: 1;
-  vertical-align: bottom;
+    letter-spacing: -0.01vw;
+    text-align: center;
+    line-height: 1;
+    vertical-align: bottom;
 }
 
 .huckleberry .char1,
 .huckleberry .char9 {
-  font-size: 14vw;
-  line-height: 1;
-  display: inline-block;
+    font-size: 14vw;
+    line-height: 1;
+    display: inline-block;
 }
 
 .huckleberry .char2,
 .huckleberry .char8 {
-  font-size: 16vw;
-  line-height: 1;
-  display: inline-block;
+    font-size: 16vw;
+    line-height: 1;
+    display: inline-block;
 }
 
 .huckleberry .char3,
 .huckleberry .char7 {
-  font-size: 23vw;
-  line-height: 1;
-  margin: 0;
-  display: inline-block;
+    font-size: 23vw;
+    line-height: 1;
+    margin: 0;
+    display: inline-block;
 }
 
 .huckleberry .char4,
 .huckleberry .char6 {
-  font-size: 27vw;
-  line-height: 1;
-  bottom: 0;
-  display: inline-block;
+    font-size: 27vw;
+    line-height: 1;
+    bottom: 0;
+    display: inline-block;
 }
 
 .huckleberry .char5 {
-  font-size: 31vw;
-  line-height: 1;
-  bottom: 0;
-  display: inline-block;
+    font-size: 31vw;
+    line-height: 1;
+    bottom: 0;
+    display: inline-block;
 }
 
 .design-dev-container {
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 p {
-  margin: 0;
+    margin: 0;
 }
 
 p.author {
-  letter-spacing: 1vw;
-  line-height: 1;
+    letter-spacing: 1vw;
+    line-height: 1;
 }
 
 p .dev-amp {
-  font-size: 25vw;
-  line-height: 0.25;
-  color: #f02;
+    font-size: 25vw;
+    line-height: 0.25;
+    color: #f02;
 }
 
 p .dev {
-  letter-spacing: 0.3em;
-  line-height: 0;
-  vertical-align: super;
-  padding-left: 0.25em;
+    letter-spacing: 0.3em;
+    line-height: 0;
+    vertical-align: super;
+    padding-left: 0.25em;
 }
 
 .pen-title {
-  font-size: 0.5em;
-  letter-spacing: 0.02em;
-  text-align: center;
-  width: 100%;
+    font-size: 0.5em;
+    letter-spacing: 0.02em;
+    text-align: center;
+    width: 100%;
 }
 
 .pen-title h2 {
-  font-weight: 400;
+    font-weight: 400;
 }
 
 .pen-title p.edition {
-  font-size: 6vw;
-  line-height: 1;
+    font-size: 6vw;
+    line-height: 1;
 }
 
 .pen-title p.circle {
-  font-size: 6vw;
-  line-height: 1;
-  color: #ccc;
+    font-size: 6vw;
+    line-height: 1;
+    color: #ccc;
 }
